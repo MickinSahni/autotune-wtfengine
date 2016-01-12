@@ -1,5 +1,5 @@
 #!/bin/bash
-BUILD_COMMAND="bundle exec middleman build"
+BUILD_COMMAND="rails s -b $IP -p $PORT"
 INPUT_DATA=$(</dev/stdin)
 SAVE_DATA_TO=data/autotune.json
 
